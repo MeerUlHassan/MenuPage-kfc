@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav--icon{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+
+}
+.my--card-img{
+  width: 280px;
+  height: 300px;
+}
+.fly-cart-btn{
+    align-items: center;
+    background-color: initial;
+    background-image: url('https://www.kfcpakistan.com/static/media/bucket-filled.d2ad11819eca0f28a8ac.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    color:black;
+    display: flex;
+    font-family: National2CondensedBold;
+    font-family: var(--theam-font);
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0;
+    right: 20px;
+    width: 45px
+}
+.bcket-icon{
+  height: 45px;
+}
+.my--btn{
+  background-color: crimson;
+  margin-left: 40px;
+  margin-top: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.my--card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 78vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.card-body{
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-sec{
+  display: flex;
+  justify-content: space-between;
+}
+.title-sec>h6{
+  background-color: crimson;
+  border-radius: 30%;
+  color: white ;
+  padding: 5px;
+}
+.my-btn{
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.my-btn:hover{
+  background-color: rgb(231, 78, 78);
+  transition: .2s ease all;
 }
