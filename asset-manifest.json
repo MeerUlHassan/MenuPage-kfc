@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MenuPage-kfc/static/css/main.981ff029.css",
+    "main.js": "/MenuPage-kfc/static/js/main.26928a50.js",
+    "static/js/787.570c7869.chunk.js": "/MenuPage-kfc/static/js/787.570c7869.chunk.js",
+    "index.html": "/MenuPage-kfc/index.html",
+    "main.981ff029.css.map": "/MenuPage-kfc/static/css/main.981ff029.css.map",
+    "main.26928a50.js.map": "/MenuPage-kfc/static/js/main.26928a50.js.map",
+    "787.570c7869.chunk.js.map": "/MenuPage-kfc/static/js/787.570c7869.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.981ff029.css",
+    "static/js/main.26928a50.js"
+  ]
+}
